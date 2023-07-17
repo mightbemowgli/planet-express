@@ -8,7 +8,16 @@ body, html {
 }
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.large {
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 /* Header & Nav */
@@ -45,17 +54,42 @@ body, html {
 
 .nav-links a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
-.nav-links a:hover {
-    color: rgb(73, 65, 65);
+.btn {
+    background-color: #a10e1d;
+    padding: .5rem 1.75rem;
+    border-radius: 1.75rem;
 }
 
-
-
+.btn.white {
+    color: white;
+}
 
 /* Hero Section */
+
+#mission {
+    min-height: 400px;
+    width: 100%;    
+    background-image: url("./photos/express-ship.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
 
 /* Services */
 
