@@ -1,5 +1,64 @@
+/* Universal */
+
 body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
 }
+
+* {
+    /* border: 1px solid red; */
+}
+
+/* Header & Nav */
+
+.logo-img {
+    width: 4rem;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-links a:hover {
+    color: rgb(73, 65, 65);
+}
+
+
+
+
+/* Hero Section */
+
+/* Services */
+
+/* Our Team */
+
+/* Footer */
